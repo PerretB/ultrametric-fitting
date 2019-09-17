@@ -1,6 +1,6 @@
 # Ultrametric Fitting by Gradient Descent
 
-Python implementation of [Ultrametric Fitting by Gradient Descent]([https://arxiv.org/abs/1905.10566](https://arxiv.org/abs/1905.10566)) published at NeurIPS 2019.
+Python implementation of [Ultrametric Fitting by Gradient Descent](https://arxiv.org/abs/1905.10566) published at NeurIPS 2019.
 
 
 
