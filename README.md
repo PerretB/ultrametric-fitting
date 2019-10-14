@@ -25,7 +25,7 @@ We study the problem of fitting an ultrametric distance to a dissimilarity graph
 
 ## Poster
 
-[![Poster](poster.png)](poster.pdf)
+[![Poster](poster.png)](Poster.pdf)
 
 
 ## Usage
