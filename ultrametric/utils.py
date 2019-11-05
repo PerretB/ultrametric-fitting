@@ -33,8 +33,8 @@ class Experiments:
     
     def add_results(self, experiment_name, set_name, **kwargs):
         assert set_name in self.sets.keys()
-        e = self.results.setdefault(experiment_name, {})
-        r = e.setdefault(set_name, {})
+        e = self.results.setdefault(experiment_name, OrderedDict())
+        r = e.setdefault(set_name, OrderedDict())
         e[set_name].update(kwargs)
         
     def show(self, name, what=["clustering"]):
