@@ -21,7 +21,7 @@ path = os.path.dirname(os.path.abspath(__file__))
 if os.name == 'nt':
     cflags = ['/std:c++14', '/fp:fast', '/GL', '/EHsc', '/MP', '/bigobj', '/O2']
 else:
-    cflags = ['-ffast-math', '-std=c++14', '-flto', '-O3']
+    cflags = ['-D_GLIBCXX_USE_CXX11_ABI=1', '-fabi-version=8', '-ffast-math', '-std=c++14', '-flto', '-O3']
 
     
 # JIT module
