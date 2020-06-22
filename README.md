@@ -63,15 +63,11 @@ Download this repository and follow the two demonstration notebooks: [Clustering
 
 **bibtex**
 
-	@incollection{CP2019ultrametric,
-		title = {Ultrametric Fitting by Gradient Descent},
-		author = {Giovanni Chierchia and Benjamin Perret},
-		booktitle = {Advances in Neural Information Processing Systems 32},
-		publisher = {},
-		editor = {},
-		pages = {},
-		year = {2019},
-		eprint={1905.10566},
-		archivePrefix={arXiv},
+	@inproceedings{CP2019ultrametric,
+	  title={Ultrametric fitting by gradient descent},
+	  author={Chierchia, G. and Perret, B.},
+	  booktitle={Advances in neural information processing systems},
+	  pages={3181--3192},
+	  year={2019}
 	}
 
