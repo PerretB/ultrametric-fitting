@@ -23,11 +23,11 @@ def build_graph(X, graph_type='knn-mst', n_neighbors=5, mst_weight=1):
         A = squareform(d)
         
     elif graph_type == 'knn':
-        A = kneighbors_graph(X, n_neighbors, 'distance').toarray()
+        A = kneighbors_graph(X, n_neighbors, mode='distance').toarray()
         A = (A + A.T) / 2
         
     elif graph_type == 'knn-mst':
-        A = kneighbors_graph(X, n_neighbors, 'distance').toarray()
+        A = kneighbors_graph(X, n_neighbors, mode='distance').toarray()
         A = (A + A.T) / 2
         D = squareform(pdist(X))
         MST = minimum_spanning_tree(D).toarray()
